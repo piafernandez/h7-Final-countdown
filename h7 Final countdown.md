@@ -136,7 +136,7 @@ Your Linux system now has a firewall (UFW) in place, and it's blocking all ports
 
    > Be sure to set a strong password for the new user.
 
-6. Switch to user Alice
+7. Switch to user Alice
 
    ```
    su alice
@@ -145,7 +145,7 @@ Your Linux system now has a firewall (UFW) in place, and it's blocking all ports
    <img width="221" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/8c0b9f84-5144-4215-a447-60ba9a8cb317">
 
 
-7. Check which user you are
+8. Check which user you are
 
    ```
    whoami
@@ -154,7 +154,7 @@ Your Linux system now has a firewall (UFW) in place, and it's blocking all ports
    <img width="242" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/e9551de5-8a9d-4e01-af07-e94b0f373c4d">
 
 
-8. Generate SSH keys
+9. Generate SSH keys
 
    ```
    ssh-keygen
@@ -163,7 +163,7 @@ Your Linux system now has a firewall (UFW) in place, and it's blocking all ports
    <img width="410" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/a1f3fa26-5f74-427b-a0da-fceeb7305af7">
 
 
-9.  Copy the public SSH key of Alice
+10.  Copy the public SSH key of Alice
 
    > The command `ssh-copy-id alice@127.0.0.1` is used to copy the public SSH key of the user "alice" from your local machine to the same machine you are currently on (localhost) using SSH key-based authentication.
 
@@ -174,7 +174,7 @@ Your Linux system now has a firewall (UFW) in place, and it's blocking all ports
    <img width="413" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/3e7f0649-d93b-43c4-bee5-bc62f4604c20">
 
 
-10. Test SSH Key Authentication for Alice
+11. Test SSH Key Authentication for Alice
 
     > After copying Alice's SSH key, you can now test SSH key authentication to ensure it's working correctly. Run the following command to connect to the remote server as Alice:
 
