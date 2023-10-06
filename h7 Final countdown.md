@@ -166,7 +166,7 @@
 
     > The command `ssh-copy-id alice@127.0.0.1` is used to copy the public SSH key of the user "alice" from your local machine to the same machine you are currently on (localhost) using SSH key-based authentication.
 
-    ```
+   ```
    ssh-copy-id alice@127.0.0.1
    ```
 
