@@ -93,8 +93,7 @@
 
    <img width="347" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/f80bdf0c-36f4-4a3b-be3a-db4ad9918646">
 
-
-Your Linux system now has a firewall (UFW) in place, and it's blocking all ports that you haven't explicitly allowed. 
+   Your Linux system now has a firewall (UFW) in place, and it's blocking all ports that you haven't explicitly allowed. 
 
 # Ssherver: Install OpenSSH server and connect to it
 
@@ -165,13 +164,13 @@ Your Linux system now has a firewall (UFW) in place, and it's blocking all ports
 
 10.  Copy the public SSH key of Alice
 
-   > The command `ssh-copy-id alice@127.0.0.1` is used to copy the public SSH key of the user "alice" from your local machine to the same machine you are currently on (localhost) using SSH key-based authentication.
+    > The command `ssh-copy-id alice@127.0.0.1` is used to copy the public SSH key of the user "alice" from your local machine to the same machine you are currently on (localhost) using SSH key-based authentication.
 
-   ```
+    ```
    ssh-copy-id alice@127.0.0.1
    ```
 
-   <img width="413" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/3e7f0649-d93b-43c4-bee5-bc62f4604c20">
+<img width="413" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/3e7f0649-d93b-43c4-bee5-bc62f4604c20">
 
 
 11. Test SSH Key Authentication for Alice
