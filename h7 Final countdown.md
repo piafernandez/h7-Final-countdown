@@ -91,7 +91,7 @@
    sudo ufw status
    ```
 
-<img width="347" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/f80bdf0c-36f4-4a3b-be3a-db4ad9918646">
+   <img width="347" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/f80bdf0c-36f4-4a3b-be3a-db4ad9918646">
 
 
 Your Linux system now has a firewall (UFW) in place, and it's blocking all ports that you haven't explicitly allowed. 
