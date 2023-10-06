@@ -169,10 +169,8 @@
 ```
 ssh-copy-id alice@127.0.0.1
 ```
-        
 <img width="413" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/3e7f0649-d93b-43c4-bee5-bc62f4604c20">
-
-
+    
 11. Test SSH Key Authentication for Alice
 
     > After copying Alice's SSH key, you can now test SSH key authentication to ensure it's working correctly. Run the following command to connect to the remote server as Alice:
