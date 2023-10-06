@@ -162,13 +162,13 @@
    <img width="410" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/a1f3fa26-5f74-427b-a0da-fceeb7305af7">
 
 
-10.  Copy the public SSH key of Alice
+10. Copy the public SSH key of Alice
 
-        > The command `ssh-copy-id alice@127.0.0.1` is used to copy the public SSH key of the user "alice" from your local machine to the same machine you are currently on (localhost) using SSH key-based authentication.
+> The command `ssh-copy-id alice@127.0.0.1` is used to copy the public SSH key of the user "alice" from your local machine to the same machine you are currently on (localhost) using SSH key-based authentication.
 
-        ```
-        ssh-copy-id alice@127.0.0.1
-        ```
+```
+ssh-copy-id alice@127.0.0.1
+```
         
 <img width="413" alt="image" src="https://github.com/piafernandez/h7-Final-countdown/assets/71267247/3e7f0649-d93b-43c4-bee5-bc62f4604c20">
 
